@@ -1,0 +1,30 @@
+{
+    "jobs": [
+        {
+            "company": "NK Learnicare",
+            "profile": "Full Stack Developer",
+            "founded": "2017",
+            "location": "Mumbai",
+            "emp_count": "0-10",
+            "description": "A event organisation based startup with 20+ successful events in different cities in the India.",
+            "category": "Full time",
+            "tags": ["javascript", "angular", "jquery", "nodejs", "reactjs", "mongodb", "vuejs", "sql"],
+            "website": "http://nklearnicare.com",
+            "information": "",
+            "link": "#"
+        },
+        {
+            "company": "PoSist Technologies",
+            "profile": "SDE-II Internship",
+            "founded": "2015",
+            "location": "Noida",
+            "emp_count": "10-50",
+            "description": "POSist is a leading cloud-based Point of Sale solutions provider. With the motto of providing “Training Free” and “Easy to Use” scalable solutions, we have successfully registered a global presence, with more than 6000 customers in over 100 cities and 6 countries.",
+            "category": "Internship",
+            "tags": ["javascript", "angular", "jquery", "nodejs", "reactjs", "mongodb", "vuejs", "sql", "docker", "cloud"],
+            "website": "https://www.posist.com",
+            "information": "",
+            "link": "#"
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+@font-face {
+    font-family: GilroyBold;
+    src: url('../fonts/Gilroy-ExtraBold.otf');
+  }
+
+  @font-face {
+    font-family: GilroyLight;
+    src: url('../fonts/Gilroy-Light.otf');
+  }
+
+body {
+    color: #121212;
+    overflow-x: hidden;
+    font-family: GilroyLight;
+}
+
+.front_image_Section{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../images/front_image.jpg');
+}
+
+.title-hire{
+    color: #4285F4;
+}
+
+.googlelogo{
+    color: #DB4437!important;
+    margin-right: 8px;
+}
+
+h1{
+    font-family: GilroyBold;
+    font-size: 4em;
+    color: #121212;
+}
+
+h1:hover{
+    color: #4285F4;
+    transition: 0.2s all ease;
+}
+
+h1:hover .title-hire{
+    color: #121212;        
+}
+
+.signInBtn {
+    color: #4285F4;
+    border: 0;
+    font-family: GilroyBold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.front_illustration{
+    background-image: url('../images/illustration.svg');
+    height: 510px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brand-logo{
+    font-family: GilroyBold;
+}
+
+.active {
+    font-family: GilroyBold!important;
+}
+
+.hire-logo{
+    color: #4285F4;
+}
+
+.bold {
+    font-family: GilroyBold;
+}
+
+.light {
+    font-family: GilroyLight;
+}
+
+.image-content{
+    color: #fff;
+    position: absolute!important;
+    z-index: 99;
+}
+.font-40 {
+    font-size: 20px;
+}
+.font-24{
+    font-size: 24px;
+}
+
+.image-content h1:hover .title-hire{
+    color: #fff;        
+}
+
+.colorBlue{
+    color: #4285F4;
+}
+
+.colorPink{
+    color: #BB86FC;
+}
+
+.colorGray {
+    color: #707070;
+}
+
+.colorPurple{
+    color: #3700B3;
+}
+
+.job-title{
+    font-size: 1.1em;
+}
+
+.colorGreen{
+    color: #02BFA0;
+}
+
+.btn-submit, .btn-submit:hover {
+    background-color: #3700B3;
+    color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    font-family: GilroyBold;
+}
+
+.map {
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
